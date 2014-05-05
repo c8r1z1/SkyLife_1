@@ -3,10 +3,13 @@ package app;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
+import javax.swing.JTextField;
+import java.awt.BorderLayout;
 
 public class SkyLife {
 
 	private JFrame frame;
+	private JTextField txtTest;
 
 	/**
 	 * Launch the application.
@@ -38,6 +41,11 @@ public class SkyLife {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		txtTest = new JTextField();
+		txtTest.setText("test");
+		frame.getContentPane().add(txtTest, BorderLayout.CENTER);
+		txtTest.setColumns(10);
 	}
 
 }
