@@ -5,12 +5,14 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
 import java.awt.BorderLayout;
+import javax.swing.JButton;
 
 public class SkyLife {
 
 	private JFrame frame;
 	private JTextField txtTest;
 	private JTextField txtTest_1;
+	private JButton btnTestbutton;
 
 	/**
 	 * Launch the application.
@@ -52,6 +54,9 @@ public class SkyLife {
 		txtTest_1.setText("test2");
 		frame.getContentPane().add(txtTest_1, BorderLayout.NORTH);
 		txtTest_1.setColumns(10);
+		
+		btnTestbutton = new JButton("testbutton");
+		frame.getContentPane().add(btnTestbutton, BorderLayout.EAST);
 	}
 
 }
