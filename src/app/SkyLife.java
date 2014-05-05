@@ -6,13 +6,12 @@ import javax.swing.JFrame;
 import javax.swing.JTextField;
 import java.awt.BorderLayout;
 import javax.swing.JButton;
+import javax.swing.SwingConstants;
 
 public class SkyLife {
 
 	private JFrame frame;
-	private JTextField txtTest;
-	private JTextField txtTest_1;
-	private JButton btnTestbutton;
+	private JTextField txtMaster;
 
 	/**
 	 * Launch the application.
@@ -45,18 +44,11 @@ public class SkyLife {
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		txtTest = new JTextField();
-		txtTest.setText("test");
-		frame.getContentPane().add(txtTest, BorderLayout.CENTER);
-		txtTest.setColumns(10);
-		
-		txtTest_1 = new JTextField();
-		txtTest_1.setText("test2");
-		frame.getContentPane().add(txtTest_1, BorderLayout.NORTH);
-		txtTest_1.setColumns(10);
-		
-		btnTestbutton = new JButton("testbutton");
-		frame.getContentPane().add(btnTestbutton, BorderLayout.EAST);
+		txtMaster = new JTextField();
+		txtMaster.setHorizontalAlignment(SwingConstants.CENTER);
+		txtMaster.setText("Master");
+		frame.getContentPane().add(txtMaster, BorderLayout.NORTH);
+		txtMaster.setColumns(10);
 	}
 
 }
