@@ -49,6 +49,9 @@ public class SkyLife {
 		txtMaster.setText("Master");
 		frame.getContentPane().add(txtMaster, BorderLayout.NORTH);
 		txtMaster.setColumns(10);
+		
+		JButton btnTestBranch = new JButton("Test Branch 2");
+		frame.getContentPane().add(btnTestBranch, BorderLayout.EAST);
 	}
 
 }
