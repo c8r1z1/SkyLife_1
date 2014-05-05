@@ -50,13 +50,13 @@ public class SkyLife {
 		frame.getContentPane().add(txtMaster, BorderLayout.NORTH);
 		txtMaster.setColumns(10);
 		
-<<<<<<< HEAD
+
 		JButton btnTestBranch = new JButton("Test Branch 1");
 		frame.getContentPane().add(btnTestBranch, BorderLayout.WEST);
-=======
-		JButton btnTestBranch = new JButton("Test Branch 2");
-		frame.getContentPane().add(btnTestBranch, BorderLayout.EAST);
->>>>>>> testbranch2
+
+		JButton btnTestBranch2 = new JButton("Test Branch 2");
+		frame.getContentPane().add(btnTestBranch2, BorderLayout.EAST);
+
 	}
 
 }
