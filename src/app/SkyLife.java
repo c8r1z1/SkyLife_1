@@ -10,6 +10,7 @@ public class SkyLife {
 
 	private JFrame frame;
 	private JTextField txtTest;
+	private JTextField txtTest_1;
 
 	/**
 	 * Launch the application.
@@ -46,6 +47,11 @@ public class SkyLife {
 		txtTest.setText("test");
 		frame.getContentPane().add(txtTest, BorderLayout.CENTER);
 		txtTest.setColumns(10);
+		
+		txtTest_1 = new JTextField();
+		txtTest_1.setText("test2");
+		frame.getContentPane().add(txtTest_1, BorderLayout.NORTH);
+		txtTest_1.setColumns(10);
 	}
 
 }
