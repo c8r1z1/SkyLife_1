@@ -46,7 +46,7 @@ public class SkyLife {
 		
 		txtMaster = new JTextField();
 		txtMaster.setHorizontalAlignment(SwingConstants.CENTER);
-		txtMaster.setText("Master");
+		txtMaster.setText("i changed the name for testing reasons");
 		frame.getContentPane().add(txtMaster, BorderLayout.NORTH);
 		txtMaster.setColumns(10);
 		
