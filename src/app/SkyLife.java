@@ -59,6 +59,9 @@ public class SkyLife {
 		
 		JButton btnTestManuel = new JButton("test manuel");
 		frame.getContentPane().add(btnTestManuel, BorderLayout.SOUTH);
+		
+		JButton btnTestManuel_1 = new JButton("test manuel 2");
+		frame.getContentPane().add(btnTestManuel_1, BorderLayout.CENTER);
 
 	}
 
